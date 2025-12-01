@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_jro0kGJXEfC9_6pLvq5M2g" name="confDatabase" dataPackage="_jro0mGJXEfC9_6pLvq5M2g" XmlFilePath="C:/PROJET_TALEND_BI/confDatabase.xml" Encoding="UTF-8" fileContent="3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D38223F3E0D0A3C74656368436F6E663E0D0A093C7365727665724E616D653E6C6F63616C686F73743C2F7365727665724E616D653E0D0A093C64617461626173653E495354414749414952455F494E47455354494F4E5F44423C2F64617461626173653E0D0A093C706F72743E353433323C2F706F72743E0D0A093C736368656D615F746563683E7464625F636F6E746578743C2F736368656D615F746563683E0D0A093C6C6F67696E3E706F7374677265733C2F6C6F67696E3E0D0A093C70617373776F72643E6172656E614172656D4124313933363C2F70617373776F72643E0D0A3C2F74656368436F6E663E09">
+    <schema xmi:id="_jro0kWJXEfC9_6pLvq5M2g" LimitBoucle="50" AbsoluteXPathQuery="/techConf">
+      <schemaTargets xmi:id="_jro0kmJXEfC9_6pLvq5M2g" RelativeXPathQuery="serverName" TagName="serverName"/>
+      <schemaTargets xmi:id="_jro0k2JXEfC9_6pLvq5M2g" RelativeXPathQuery="database" TagName="database"/>
+      <schemaTargets xmi:id="_jro0lGJXEfC9_6pLvq5M2g" RelativeXPathQuery="port" TagName="port"/>
+      <schemaTargets xmi:id="_jro0lWJXEfC9_6pLvq5M2g" RelativeXPathQuery="schema_tech" TagName="schema_tech"/>
+      <schemaTargets xmi:id="_jro0lmJXEfC9_6pLvq5M2g" RelativeXPathQuery="login" TagName="login"/>
+      <schemaTargets xmi:id="_jro0l2JXEfC9_6pLvq5M2g" RelativeXPathQuery="password" TagName="password"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_jro0mGJXEfC9_6pLvq5M2g" name="default" dataManager="_jro0kGJXEfC9_6pLvq5M2g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jro0mWJXEfC9_6pLvq5M2g" id="_R3VsgGJXEfC9_6pLvq5M2g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jro0mmJXEfC9_6pLvq5M2g" label="serverName" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jro0m2JXEfC9_6pLvq5M2g" label="database" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jro0nGJXEfC9_6pLvq5M2g" label="port" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jro0nWJXEfC9_6pLvq5M2g" label="schema_tech" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jro0nmJXEfC9_6pLvq5M2g" label="login" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jro0n2JXEfC9_6pLvq5M2g" label="password" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
